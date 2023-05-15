@@ -1,0 +1,803 @@
+fileFormatVersion: 2
+guid: 54f5903df03436540a304bf36265bdd9
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 0
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: Chair_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 369
+      height: 515
+    spriteID: bc70aa2caf632a44692c7f8915c89632
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: Wingback_Bottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 369
+      height: 515
+    spriteID: 221f0caf143b5204185a4966cbb376e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Wingback_Hands
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 527
+      width: 369
+      height: 515
+    spriteID: 68613b90d34d2d54da367ed9832f438f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 527}
+    spritePosition: {x: 0, y: 0}
+  - name: Wingback_Mid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1050
+      width: 369
+      height: 515
+    spriteID: 731591416e412d94da51bc8ac67c2344
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 1050}
+    spritePosition: {x: 0, y: 0}
+  - name: Wingback_Top
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 4
+      width: 369
+      height: 515
+    spriteID: feecc5767c210e7459f2248685f3fc14
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 381, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Wooden_Mid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 527
+      width: 369
+      height: 515
+    spriteID: d483aa6d047a9f94eb65df96f8e8f0dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 381, y: 527}
+    spritePosition: {x: 0, y: 0}
+  - name: Wooden_Top
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 381
+      y: 1050
+      width: 369
+      height: 515
+    spriteID: 9cf89bb580e45ec459c970d0d6491deb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 381, y: 1050}
+    spritePosition: {x: 0, y: 0}
+  - name: Wooden_Bottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 4
+      width: 369
+      height: 515
+    spriteID: 038b2578f39fd374d9f571dce7412d50
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 758, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Office_Top
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 527
+      width: 369
+      height: 515
+    spriteID: e863e0c8df3d8da4b900cbc62e44314d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 758, y: 527}
+    spritePosition: {x: 0, y: 0}
+  - name: Office_Mid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 758
+      y: 1050
+      width: 369
+      height: 515
+    spriteID: b1226bbe894b14d4aa0fbbaa88c0ac91
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 758, y: 1050}
+    spritePosition: {x: 0, y: 0}
+  - name: Office_Hands
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1135
+      y: 4
+      width: 369
+      height: 515
+    spriteID: 584998a03a08f4847b2cfa21247ccc21
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1135, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: Office_Bottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1135
+      y: 527
+      width: 369
+      height: 515
+    spriteID: 6ff89ed3131fb6442999bfd0fc40727c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 1135, y: 527}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: Wooden_Top
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 176
+      width: 185
+      height: 198
+    spriteID: 255015034962ff24188a7327495be9b2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 176}
+    spritePosition: {x: 94, y: 266}
+  - name: Wooden_Mid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 566
+      y: 113
+      width: 202
+      height: 50
+    spriteID: 60c2d5851f395b84ba20b88c0ab7a2e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 566, y: 113}
+    spritePosition: {x: 82, y: 217}
+  - name: Wooden_Bottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 277
+      y: 4
+      width: 281
+      height: 153
+    spriteID: b0f0f14b3b137564c895bf5f8932be1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 277, y: 4}
+    spritePosition: {x: 48, y: 66}
+  - name: Office_Top
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 197
+      y: 176
+      width: 182
+      height: 198
+    spriteID: 2321d866419cf684ca12d13b8421ec9e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 197, y: 176}
+    spritePosition: {x: 95, y: 272}
+  - name: Office_Mid
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 776
+      y: 113
+      width: 198
+      height: 47
+    spriteID: 98fb5a5589585084c9dc8c65b7d63c20
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 776, y: 113}
+    spritePosition: {x: 86, y: 226}
+  - name: Office_Hands
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 566
+      y: 4
+      width: 289
+      height: 101
+    spriteID: 6553be8b7525a0245972702f0d22961c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 566, y: 4}
+    spritePosition: {x: 41, y: 234}
+  - name: Office_Bottom
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 265
+      height: 164
+    spriteID: ada2cd1a2c1d5bb4aa7d12c4a97f6bfb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    parentGroupIndex: -1
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 51, y: 62}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Wingback
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: d478a0fa71fee88448946598005678e6
+    layerID: 50
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Wingback_Bottom
+    spriteName: Wingback_Bottom
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 221f0caf143b5204185a4966cbb376e4
+    layerID: 58
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wingback_Hands
+    spriteName: Wingback_Hands
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 68613b90d34d2d54da367ed9832f438f
+    layerID: 67
+    mosaicPosition: {x: 4, y: 527}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wingback_Mid
+    spriteName: Wingback_Mid
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 731591416e412d94da51bc8ac67c2344
+    layerID: 68
+    mosaicPosition: {x: 4, y: 1050}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wingback_Top
+    spriteName: Wingback_Top
+    isGroup: 0
+    parentIndex: 0
+    spriteID: feecc5767c210e7459f2248685f3fc14
+    layerID: 66
+    mosaicPosition: {x: 381, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wooden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 097880a5a5567cd4fa3ce9965a91330f
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Wooden_Mid
+    spriteName: Wooden_Mid
+    isGroup: 0
+    parentIndex: 5
+    spriteID: d483aa6d047a9f94eb65df96f8e8f0dc
+    layerID: 63
+    mosaicPosition: {x: 381, y: 527}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wooden_Top
+    spriteName: Wooden_Top
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 9cf89bb580e45ec459c970d0d6491deb
+    layerID: 64
+    mosaicPosition: {x: 381, y: 1050}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wooden_Bottom
+    spriteName: Wooden_Bottom
+    isGroup: 0
+    parentIndex: 5
+    spriteID: 038b2578f39fd374d9f571dce7412d50
+    layerID: 65
+    mosaicPosition: {x: 758, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: c69340b6cf03bc74b992139aa6887135
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Office_Top
+    spriteName: Office_Top
+    isGroup: 0
+    parentIndex: 9
+    spriteID: e863e0c8df3d8da4b900cbc62e44314d
+    layerID: 59
+    mosaicPosition: {x: 758, y: 527}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Mid
+    spriteName: Office_Mid
+    isGroup: 0
+    parentIndex: 9
+    spriteID: b1226bbe894b14d4aa0fbbaa88c0ac91
+    layerID: 60
+    mosaicPosition: {x: 758, y: 1050}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Hands
+    spriteName: Office_Hands
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 584998a03a08f4847b2cfa21247ccc21
+    layerID: 61
+    mosaicPosition: {x: 1135, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Bottom
+    spriteName: Office_Bottom
+    isGroup: 0
+    parentIndex: 9
+    spriteID: 6ff89ed3131fb6442999bfd0fc40727c
+    layerID: 62
+    mosaicPosition: {x: 1135, y: 527}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: Wooden
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 649d3c6022c9c1542892ee6513ce1504
+    layerID: 18
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Wooden_Top
+    spriteName: Wooden_Top
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 255015034962ff24188a7327495be9b2
+    layerID: 16
+    mosaicPosition: {x: 4, y: 176}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wooden_Mid
+    spriteName: Wooden_Mid
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 60c2d5851f395b84ba20b88c0ab7a2e9
+    layerID: 17
+    mosaicPosition: {x: 566, y: 113}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Wooden_Bottom
+    spriteName: Wooden_Bottom
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b0f0f14b3b137564c895bf5f8932be1a
+    layerID: 15
+    mosaicPosition: {x: 277, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: 79de1c3db1b416240a4a337e9c1accfa
+    layerID: 13
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: Office_Top
+    spriteName: Office_Top
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 2321d866419cf684ca12d13b8421ec9e
+    layerID: 8
+    mosaicPosition: {x: 197, y: 176}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Mid
+    spriteName: Office_Mid
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 98fb5a5589585084c9dc8c65b7d63c20
+    layerID: 11
+    mosaicPosition: {x: 776, y: 113}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Hands
+    spriteName: Office_Hands
+    isGroup: 0
+    parentIndex: 4
+    spriteID: 6553be8b7525a0245972702f0d22961c
+    layerID: 12
+    mosaicPosition: {x: 566, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Office_Bottom
+    spriteName: Office_Bottom
+    isGroup: 0
+    parentIndex: 4
+    spriteID: ada2cd1a2c1d5bb4aa7d12c4a97f6bfb
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting: []
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
