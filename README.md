@@ -11,6 +11,7 @@ Game Prototype created for desiginers to easily build upon, by adding sprites/im
 ## Usage
 - Evey furniture/item has it's own unique ID.
 ![Unique ID](/Assets/screenshots/UID.png)
+![Selection Ref](/Assets/screenshots/SelectionRefrence.png)
 
 ## Getting Started
 
