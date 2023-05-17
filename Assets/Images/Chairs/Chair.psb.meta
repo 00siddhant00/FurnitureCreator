@@ -257,7 +257,7 @@ ScriptedImporter:
       y: 527
       width: 369
       height: 515
-    spriteID: e863e0c8df3d8da4b900cbc62e44314d
+    spriteID: 46fdcd38ef762c447bdd5c49d701761d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -279,7 +279,7 @@ ScriptedImporter:
       y: 1050
       width: 369
       height: 515
-    spriteID: b1226bbe894b14d4aa0fbbaa88c0ac91
+    spriteID: 7fee67270a6a5ab4fa77461785637fe3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -301,7 +301,7 @@ ScriptedImporter:
       y: 4
       width: 369
       height: 515
-    spriteID: 584998a03a08f4847b2cfa21247ccc21
+    spriteID: b8b137361ffece3438492c5b2a2c7c1b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -323,7 +323,7 @@ ScriptedImporter:
       y: 527
       width: 369
       height: 515
-    spriteID: 6ff89ed3131fb6442999bfd0fc40727c
+    spriteID: 4b4cb0e57dd02b64a920e85f61c1ff6d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -666,8 +666,8 @@ ScriptedImporter:
     spriteName: Office_Top
     isGroup: 0
     parentIndex: 9
-    spriteID: e863e0c8df3d8da4b900cbc62e44314d
-    layerID: 59
+    spriteID: 46fdcd38ef762c447bdd5c49d701761d
+    layerID: 69
     mosaicPosition: {x: 758, y: 527}
     flatten: 0
     isImported: 1
@@ -676,8 +676,8 @@ ScriptedImporter:
     spriteName: Office_Mid
     isGroup: 0
     parentIndex: 9
-    spriteID: b1226bbe894b14d4aa0fbbaa88c0ac91
-    layerID: 60
+    spriteID: 7fee67270a6a5ab4fa77461785637fe3
+    layerID: 70
     mosaicPosition: {x: 758, y: 1050}
     flatten: 0
     isImported: 1
@@ -686,8 +686,8 @@ ScriptedImporter:
     spriteName: Office_Hands
     isGroup: 0
     parentIndex: 9
-    spriteID: 584998a03a08f4847b2cfa21247ccc21
-    layerID: 61
+    spriteID: b8b137361ffece3438492c5b2a2c7c1b
+    layerID: 71
     mosaicPosition: {x: 1135, y: 4}
     flatten: 0
     isImported: 1
@@ -696,8 +696,8 @@ ScriptedImporter:
     spriteName: Office_Bottom
     isGroup: 0
     parentIndex: 9
-    spriteID: 6ff89ed3131fb6442999bfd0fc40727c
-    layerID: 62
+    spriteID: 4b4cb0e57dd02b64a920e85f61c1ff6d
+    layerID: 72
     mosaicPosition: {x: 1135, y: 527}
     flatten: 0
     isImported: 1

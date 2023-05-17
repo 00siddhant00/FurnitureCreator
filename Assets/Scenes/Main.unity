@@ -11172,25 +11172,25 @@ MonoBehaviour:
     - name: Top
       selected: 0
       subComponents:
-      - {fileID: 8339240430487774716, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
+      - {fileID: 8702210904097806846, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: -5326963364385468573, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: 1884386809738444428, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
     - name: Mid
       selected: 0
       subComponents:
-      - {fileID: 8680665035050865154, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
+      - {fileID: 4183247945054147689, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: -8316600304567468280, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: 936266665262922428, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
     - name: Hands
       selected: 0
       subComponents:
       - {fileID: 21300000, guid: eebeca7e778ece741b4cc8285c38da85, type: 3}
-      - {fileID: 8060820640026668103, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
+      - {fileID: -539807742580235884, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: 6104507618713170963, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
     - name: Bottom
       selected: 0
       subComponents:
-      - {fileID: 7999859127448096526, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
+      - {fileID: -1332538632744524743, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: 292383060912468495, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
       - {fileID: -8854850301880476179, guid: 54f5903df03436540a304bf36265bdd9, type: 3}
   - name: Table
@@ -12984,7 +12984,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 15.29
+  orthographic size: 15
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
