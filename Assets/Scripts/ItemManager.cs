@@ -54,6 +54,8 @@ namespace Assets.Scripts
             Instance = this;
             InitializeData();
 
+            build.transform.localPosition = Vector3.zero;
+
             for (int i = 0; i < buildHolder.transform.childCount; i++)
             {
                 if (i > 5)
@@ -107,6 +109,7 @@ namespace Assets.Scripts
         {
             yield return new WaitForSeconds(0.01f);
 
+
             foreach (var item in itemDatas)
             {
                 item.selected = false;
@@ -122,20 +125,20 @@ namespace Assets.Scripts
                 }
             }
 
-            build.transform.localPosition = Vector3.zero;
             build.transform.localScale = new Vector3(108f, 108f, 108f);
 
             for (int i = 0; i < buildHolder.transform.childCount; i++)
             {
                 if (buildHolder.transform.GetChild(i).GetComponent<HolderSelection>().selected && !buildHolder.transform.GetChild(i).GetComponent<HolderSelection>().locked)
                 {
+                    build.transform.localPosition = Vector3.zero;
                     if (buildHolder.transform.GetChild(i).GetChild(0).GetChild(0).childCount > 0)
                     {
                         LoadItemIndexBuild(buildHolder.transform.GetChild(i).GetChild(0).GetChild(0).name);
                     }
                     else
                     {
-                        LoadItemIndexBuild("00010/#FFFFFF");
+                        LoadItemIndexBuild("00010:#FFFFFF/#FFFFFF/#FFFFFF/#FFFFFF");
                     }
                 }
             }
@@ -185,44 +188,61 @@ namespace Assets.Scripts
                 }
             }
 
-            var rgbColor = build.transform.GetChild(0).GetComponent<SpriteRenderer>().color;
+            string hexCode = string.Empty;
 
-            string hexColor = ColorUtility.ToHtmlStringRGB(rgbColor);
+            for (int i = 0; i < build.transform.childCount; i++)
+            {
+                var rgbColor = build.transform.GetChild(i).GetComponent<SpriteRenderer>().color;
 
-            currentItemIndex = itemIndex + "/#" + hexColor;
+                string hexColor = ColorUtility.ToHtmlStringRGB(rgbColor);
+
+                if (i == 0) hexCode += $"#{hexColor}";
+                else hexCode += $"/#{hexColor}";
+            }
+
+            currentItemIndex = $"{itemIndex}:{hexCode}";
+
             PlayerPrefs.SetString("ItemIndex", currentItemIndex);
         }
 
         public void LoadItemIndexBuild(string itemBuildIndex)
         {
             //string itemBuildIndex = PlayerPrefs.GetString("ItemIndex", "00010/#FFFFFF");
-            string[] itemIndex = itemBuildIndex.Split('/');
+            string[] itemIndex = itemBuildIndex.Split(':');
             int[] buildIndex = itemIndex[0].Select(c => int.Parse(c.ToString())).ToArray();
+            string[] colorIndex = itemIndex[1].Split('/').ToArray();
 
+            //Returns child's SpriteRenderer component by index
+            SpriteRenderer Comp(int index)
+            {
+                return build.transform.GetChild(index).GetComponent<SpriteRenderer>();
+            }
+
+            //Load index data
             foreach (var item in itemDatas)
             {
                 if (buildIndex[0] != item.itemId) continue;
 
                 for (int i = 0; i < item.components.Count; i++)
                 {
-                    build.transform.GetChild(i).GetComponent<SpriteRenderer>().sprite = item.components[i].subComponents[buildIndex[i + 1]].name == "none" ? null : item.components[i].subComponents[buildIndex[i + 1]];
+                    Comp(i).sprite = item.components[i].subComponents[buildIndex[i + 1]].name == "none" ? null : item.components[i].subComponents[buildIndex[i + 1]];
 
-                    SetBuildHight(item.components[i], build.transform.GetChild(i).GetComponent<SpriteRenderer>().sprite);
+                    SetBuildHight(item.components[i], Comp(i).sprite);
 
                     Color rgbColor;
-                    if (ColorUtility.TryParseHtmlString(itemIndex[1], out rgbColor))
+                    if (ColorUtility.TryParseHtmlString(colorIndex[i], out rgbColor))
                     {
-                        build.transform.GetChild(i).GetComponent<SpriteRenderer>().color = rgbColor;
+                        Comp(i).color = rgbColor;
                     }
                     else
                     {
-                        Debug.LogError("Invalid hex color format: " + itemIndex[1]);
+                        Debug.LogError("Invalid hex color format: " + colorIndex[i]);
                     }
                 }
             }
 
-            print(currentItemIndex);
             SetItemIndex();
+            print(currentItemIndex);
         }
 
         public void GenerateDeafultBuild()
@@ -246,6 +266,7 @@ namespace Assets.Scripts
         public void GetRandomComponents()
         {
             int index = 0;
+            build.transform.localPosition = Vector3.zero;
 
             foreach (var item in itemDatas)
             {
@@ -291,10 +312,20 @@ namespace Assets.Scripts
         //Assigns color based on the choosen color | used and call by specific color button
         public void ColorChange(RawImage img)
         {
-            for (int i = 0; i < build.transform.childCount; i++)
+            foreach (var item in itemDatas)
             {
-                build.transform.GetChild(i).GetComponent<SpriteRenderer>().color = img.color;
+                if (!item.selected) continue;
+
+                var comp = item.components;
+
+                for (int i = 0; i < comp.Count; i++)
+                {
+                    if (!comp[i].selected) continue;
+
+                    build.transform.GetChild(i).GetComponent<SpriteRenderer>().color = img.color;
+                }
             }
+
             SetItemIndex();
         }
 
@@ -306,15 +337,15 @@ namespace Assets.Scripts
 
             if (sprite.name.Contains("Off"))
             {
-                build.transform.position = new Vector3(-5.5f, 0.2f, 0f);
+                build.transform.localPosition = new Vector3(0f, 20f, 0f);
             }
             else if (sprite.name.Contains("Wing"))
             {
-                build.transform.position = new Vector3(-5.5f, -0.4f, 0f);
+                build.transform.localPosition = new Vector3(0f, -40f, 0f);
             }
             else if (sprite.name.Contains("Wood"))
             {
-                build.transform.position = new Vector3(-5.5f, 0f, 0f);
+                build.transform.localPosition = new Vector3(0f, 0f, 0f);
             }
         }
 
@@ -468,6 +499,7 @@ namespace Assets.Scripts
         //Generates Main Components based on ItemData components and assings it to its container/parent
         public void GenerateComponents()
         {
+            build.transform.localPosition = Vector3.zero;
             bool selectFirst = true;
             foreach (var item in itemDatas)
             {
