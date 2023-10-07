@@ -1,4 +1,4 @@
-# Furniture Creator - Kids Game
+# Furniture Creator - UI/UX Design
 
 Game Prototype created for desiginers to easily build upon, by adding sprites/images of furniture.
 
